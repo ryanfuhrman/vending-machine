@@ -7,7 +7,7 @@ const Snickers = () => {
   return (
     <div className="Snickers">
       <img className="Snickers-img" src={snickers} alt="snickers bar" />
-      <NavLink to="/">Home</NavLink>
+      <Link to="/">Go Back</Link>
     </div>
   );
 };

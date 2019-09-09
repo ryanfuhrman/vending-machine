@@ -7,7 +7,7 @@ const Coke = () => {
   return (
     <div className="Coke">
       <img className="Coke-img" src={coke} alt="coke bottle" />
-      <NavLink to="/">Home</NavLink>
+      <Link to="/">Go Back</Link>
     </div>
   );
 };

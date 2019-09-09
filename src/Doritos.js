@@ -6,7 +6,7 @@ import './Doritos.css';
 const Doritos = () => (
   <div className="Doritos">
     <img className="Doritos-img" src={doritos} alt="doritos bag" />
-    <NavLink to="/">Home</NavLink>
+    <Link to="/">Go Back</Link>
   </div>
 );
 
