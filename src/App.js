@@ -9,11 +9,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <navbar>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/coke">Coke</NavLink>
-        <NavLink to="/snickers">Snickers</NavLink>
-        <NavLink to="/doritos">Doritos</NavLink>
+      <navbar className="App-navbar">
+        <NavLink exact activeClassName="active-link" to="/">Home</NavLink>
+        <NavLink exact activeClassName="active-link" to="/coke">Coke</NavLink>
+        <NavLink exact activeClassName="active-link" to="/snickers">Snickers</NavLink>
+        <NavLink exact activeClassName="active-link" to="/doritos">Doritos</NavLink>
       </navbar>
 
       <Switch>
