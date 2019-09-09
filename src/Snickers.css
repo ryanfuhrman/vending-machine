@@ -1,0 +1,10 @@
+.Snickers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.Snickers-img {
+  height: 300px;
+  margin-bottom: 50px;
+}

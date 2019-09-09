@@ -1,0 +1,10 @@
+.Doritos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.Doritos-img {
+  height: 300px;
+  margin-bottom: 50px;
+}

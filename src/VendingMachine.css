@@ -1,0 +1,19 @@
+.VendingMachine {
+  display: flex;
+}
+
+.VendingMachine-img {
+  margin-top: 50px;
+}
+
+.VendingMachine-navbar {
+  margin-top: 50px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.active-link {
+  color: red;
+}
